@@ -1,0 +1,91 @@
+body{
+        
+        margin: 0px;
+        padding: 0px;
+      }
+      .barra {
+        background: rgba(255, 255, 255, 0.86);
+
+width: 100%;
+box-shadow: 0px 0px 23px rgb(54, 54, 54);
+      }
+      .down{
+        bottom: 0;
+        position: fixed;
+      }
+
+      .contact {
+        width: 30%;
+height: auto;
+box-shadow: 0px 0px 23px rgb(54, 54, 54);
+background: rgba(255, 255, 255, 0.86);
+      }
+
+      .barra ul{
+        
+        margin: 0px 0px;
+        list-style: none;
+        padding: 4px;
+        float: right;
+      }
+
+      .barra ul li{
+        position: relative;
+        float: left;
+        border: solid 1px;
+        border-width: 0px 0px 0px 1px;
+        padding: 3px;
+        border-color: gray;
+        cursor: pointer;
+        margin: 0px 5px;
+     
+    
+     
+      }
+
+      .barra ul li img{
+        border-radius: 100%;
+        border: solid 2px;
+        border-color: rgb(30, 163, 12);
+      }
+
+      #chat1{
+        background: rgb(255, 255, 255);
+height: 270px;
+width: 100%;
+position: relative;
+display: none;
+top: 0px;
+margin: -274px 0px;
+box-shadow: 0px -17px 45px -20px black;
+      }
+
+      .to div{
+        background: rgb(0, 102, 255);
+        width: auto;
+       
+        padding: 4px;
+        border-radius: 9px;
+        color: white;
+        display: table;
+        margin: 3px;
+        box-shadow: -2px 2px 5px rgb(121, 121, 121);
+        
+      }
+
+      .from div{
+        background: rgb(24, 124, 5);
+        width: auto;
+        
+        padding: 4px;
+        border-radius: 9px;
+        color: white;
+       display: table;
+       direction: initial;
+       margin: 3px;
+       box-shadow: 2px 2px 5px rgb(121, 121, 121);
+      }
+
+      .from{
+        direction: rtl;
+      }

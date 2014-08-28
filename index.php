@@ -1,6 +1,13 @@
 <?php 
+/*
+	HobbyChat ALFA
+	2014 Copyright
+ */
 
-$tema = file_get_contents("themes/template.html");
-echo $tema;
+require_once('core/controller.php');
+
+$app = new hobbyControllerPrincipal();
+print $app::Init(); // Arranca la aplicación
+
 
 ?>
